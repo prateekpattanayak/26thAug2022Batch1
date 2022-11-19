@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="tests" name="Test(failed)">
+    <classes>
+      <class name="TestNg.TestNgExample_Chrome">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="ClickLogin"/>
+          <include name="enterUsername"/>
+          <include name="maximizeBrowser"/>
+          <include name="launchBrowser"/>
+          <include name="enterPassword"/>
+          <include name="launchURL"/>
+        </methods>
+      </class> <!-- TestNg.TestNgExample_Chrome -->
+      <class name="TestNg.TestNgExample_Edge">
+        <methods>
+          <include name="maximizeBrowser"/>
+          <include name="enterUsername"/>
+          <include name="launchBrowser"/>
+          <include name="ClickLogin"/>
+          <include name="launchURL"/>
+          <include name="closeBrowser"/>
+          <include name="enterPassword"/>
+        </methods>
+      </class> <!-- TestNg.TestNgExample_Edge -->
+      <class name="TestNg.TestNgExample2">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="launchBrowser"/>
+          <include name="maximizeBrowser"/>
+          <include name="ClickLogin"/>
+          <include name="enterUsername"/>
+          <include name="enterPassword"/>
+          <include name="launchURL"/>
+        </methods>
+      </class> <!-- TestNg.TestNgExample2 -->
+      <class name="TestNg.TestNgExample1">
+        <methods>
+          <include name="verify"/>
+        </methods>
+      </class> <!-- TestNg.TestNgExample1 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
